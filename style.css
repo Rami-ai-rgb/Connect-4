@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: teal;
+}
+.cell{
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid hsl(50, 100%, 60%);
+    background-color: teal;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(7,90px);
+    gap: 8px;
+    background-color: hsl(50, 100%, 60%);
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: 19px;
+}
+.collums{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color:hsl(50, 100%, 60%) ;
+}
+#hoverCellsContainer{
+    background-color:teal;
+    width: 700px;
+    height: 80px;
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 8px;
+}
+.hoverCell{
+    background-color: teal;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.redCoins{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.yellowCoins{
+     background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.329);
+}
+#textBox{
+    position:absolute;
+    top: 0px;
+    left: 25px;
+}
